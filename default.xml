@@ -77,9 +77,9 @@
   </project>
   
   <!-- display-kernel -->
-  <project name="kernel_msm-modules_display-kernel" path="vendor/qcom/opensource/display-kernel" remote="OPLUS" >
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display_kernel_product.mk" src="display_driver_product.mk"/>
-    <linkfile dest="vendor/qcom/defs/board-defs/vendor/display_kernel_board.mk" src="display_driver_board.mk"/>
+  <project name="kernel_msm-modules_display-drivers" path="vendor/qcom/opensource/display-drivers" remote="OPLUS" >
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display_driver_product.mk" src="display_driver_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/display_driver_board.mk" src="display_driver_board.mk"/>
   </project>
   
   <!-- graphics-kernel -->
